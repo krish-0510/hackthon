@@ -1,0 +1,75 @@
+/* Reset some default styles and apply a background color */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header with a background color and navigation links */
+header {
+    background-color: #009688;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the sections with padding and a light background */
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the contact information */
+section#contact {
+    background-color: #f3f3f3;
+    text-align: center;
+}
+
+/* Style the footer */
+footer {
+    background-color: #009688;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Add a hover effect to navigation links */
+nav a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+}
+
+/* You can add more CSS rules to further style your website as desired. */
+
